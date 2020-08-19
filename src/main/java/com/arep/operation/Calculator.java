@@ -1,6 +1,7 @@
 package com.arep.operation;
 
 import com.arep.array.ListaEncadenada;
+import com.arep.exceptions.AppException;
 
 /**
  * Clase Calculator la cual realiza las operaciones estadísticas correspondientes
@@ -51,7 +52,8 @@ public class Calculator {
 		double sum = 0;
 		for (int i = 0; i < lista.size(); i++) {
 			sum += Math.pow((lista.get(i).getValue() - promedio), 2);
-		}
+		}		
+		if (lista.size() - 1 == 0) throw new AppException(AppException.DIVISION_POR_CERO);		
 		double res = Math.pow((sum / (lista.size() - 1)), 0.5);
 		double resF = Math.round(res * 100.0) / 100.0;
 		return resF;

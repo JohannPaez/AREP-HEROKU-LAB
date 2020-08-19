@@ -7,6 +7,7 @@ import org.junit.Test;
 import com.arep.array.ListaEncadenada;
 import com.arep.array.Node;
 import com.arep.operation.Calculator;
+import com.arep.read.ReadFile;
 
 /**
  * Clase que realiza varias pruebas de los calculos estadísticos solicitados.
@@ -38,7 +39,7 @@ public class AppTest {
 	public void shouldBeReadFileAndCompreListOne() {
 		double resultadoEsperadoMedia = 550.6;
 		double resultadoEsperadoDesviacion = 572.03;
-		ListaEncadenada listFileOne = App.leerArchivo("Pruebas/Lista_Numeros_1.txt");
+		ListaEncadenada listFileOne = ReadFile.leerArchivo("Pruebas/Lista_Numeros_1.txt");
 		Calculator c = new Calculator(listFileOne);
 		assertEquals(c.getMedia(), resultadoEsperadoMedia, MAXERROR);
 		assertEquals(c.getDesviacionEstandar(), resultadoEsperadoDesviacion, MAXERROR);
@@ -51,7 +52,7 @@ public class AppTest {
 	public void shouldBeReadFileAndCompreListTwo() {
 		double resultadoEsperadoMedia = 60.32;
 		double resultadoEsperadoDesviacion = 62.26;
-		ListaEncadenada listFileTwo = App.leerArchivo("Pruebas/Lista_Numeros_2.txt");
+		ListaEncadenada listFileTwo = ReadFile.leerArchivo("Pruebas/Lista_Numeros_2.txt");
 		Calculator c = new Calculator(listFileTwo);
 		assertEquals(c.getMedia(), resultadoEsperadoMedia, MAXERROR);
 		assertEquals(c.getDesviacionEstandar(), resultadoEsperadoDesviacion, MAXERROR);
@@ -64,7 +65,7 @@ public class AppTest {
 	public void shouldBeReadFileAndCompreListThree() {
 		double resultadoEsperadoMedia = 52.41;
 		double resultadoEsperadoDesviacion = 27.97;
-		ListaEncadenada listFileThree = App.leerArchivo("Pruebas/Lista_Numeros_3.txt");
+		ListaEncadenada listFileThree = ReadFile.leerArchivo("Pruebas/Lista_Numeros_3.txt");
 		Calculator c = new Calculator(listFileThree);
 		assertEquals(c.getMedia(), resultadoEsperadoMedia, MAXERROR);
 		assertEquals(c.getDesviacionEstandar(), resultadoEsperadoDesviacion, MAXERROR);
@@ -77,7 +78,7 @@ public class AppTest {
 	public void shouldBeReadFileAndCompreListFour() {
 		double resultadoEsperadoMedia = 292.60;
 		double resultadoEsperadoDesviacion = 113.35;
-		ListaEncadenada listFileFour = App.leerArchivo("Pruebas/Lista_Numeros_4.txt");
+		ListaEncadenada listFileFour = ReadFile.leerArchivo("Pruebas/Lista_Numeros_4.txt");
 		Calculator c = new Calculator(listFileFour);
 		assertEquals(c.getMedia(), resultadoEsperadoMedia, MAXERROR);
 		assertEquals(c.getDesviacionEstandar(), resultadoEsperadoDesviacion, MAXERROR);
@@ -90,7 +91,7 @@ public class AppTest {
 	public void shouldBeReadFileAndCompreListFive() {
 		double resultadoEsperadoMedia = 511.15;
 		double resultadoEsperadoDesviacion = 285.92;
-		ListaEncadenada listFileFive = App.leerArchivo("Pruebas/Lista_Numeros_5.txt");
+		ListaEncadenada listFileFive = ReadFile.leerArchivo("Pruebas/Lista_Numeros_5.txt");
 		Calculator c = new Calculator(listFileFive);
 		assertEquals(c.getMedia(), resultadoEsperadoMedia, MAXERROR);
 		assertEquals(c.getDesviacionEstandar(), resultadoEsperadoDesviacion, MAXERROR);
