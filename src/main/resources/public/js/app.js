@@ -4,8 +4,9 @@ var app = (function () {
 
     var mostrarResultados = function(error, datos) {
         if(error != null){
-    		alert("Error, verifique que la entrada tiene el formato establecido.");
-    	}
+            alert("Error, verifique que la entrada tiene el formato establecido.");
+            return;
+        }
         $("#idTdMedia").text(datos.media);
         $("#idTdDesviacion").text(datos.desviacion);
         $("#idTable").css("display", "inline-table");
