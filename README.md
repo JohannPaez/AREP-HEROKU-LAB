@@ -7,6 +7,10 @@
  
  ## Integración Continua
  [![CircleCI](https://circleci.com/gh/JohannPaez/AREP-HEROKU-LAB.svg?style=svg)](https://circleci.com/gh/JohannPaez/AREP-HEROKU-LAB)
+ 
+ ## Despliegue
+ [Despliegue en Heroku](https://desolate-peak-29983.herokuapp.com/)
+ 
  ## Prerequisitos
  
  Conocimientos básicos sobre estadística, media, mediana y desviación estándar.
