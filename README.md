@@ -7,7 +7,7 @@
 La entrega anterior, se encuentra en este [enlace](https://github.com/JohannPaez/AREP-TALLERMVNGIT).
  
  ## Diseño
- Los detalles del diseño, la arquitectura del programa, problema, definiciones y pruebas se pueden encontrar en el siguiente documento [Artículo Sobre el Diseño](Articulo_EjercicioMVNGit.pdf).
+ Los detalles del diseño, la arquitectura del programa, problema, definiciones y pruebas se pueden encontrar en el siguiente documento [Artículo Sobre el Diseño](TallerHerokuSpark.pdf).
  
  ## Integración Continua
  [![CircleCI](https://circleci.com/gh/JohannPaez/AREP-HEROKU-LAB.svg?style=svg)](https://circleci.com/gh/JohannPaez/AREP-HEROKU-LAB)
