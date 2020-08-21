@@ -1,6 +1,10 @@
 # Taller Ejercicio Maven - GIT
  
- Este aplicativo calcula algunas medidas estadísticas de n números reales que se leen de un archivo, utilizando una lista encadenada básica propia creada en la aplicación.
+ Este aplicativo calcula algunas medidas estadísticas de n números reales, utilizando un aplicativo web.
+ 
+ ## Laboratorio anterior
+ 
+La entrega anterior, se encuentra en este [enlace](https://github.com/JohannPaez/AREP-TALLERMVNGIT).
  
  ## Diseño
  Los detalles del diseño, la arquitectura del programa, problema, definiciones y pruebas se pueden encontrar en el siguiente documento [Artículo Sobre el Diseño](Articulo_EjercicioMVNGit.pdf).
